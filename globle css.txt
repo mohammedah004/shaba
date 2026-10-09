@@ -1,0 +1,51 @@
+/*globle variables*/
+:root {
+  --main-color: #4f46e5;
+  --main-color-alt: #4338ca;
+  --secondary-color: #e0e7ff;
+  --secondary-hover: #c7d2fe;
+  --text-color: #0f172a;
+  --text-muted: #64748b;
+  --section-background: #f8fafc;
+  --main-transition: 0.35s ease;
+  --main-padding-top: 85px;
+  --main-padding-bottom: 85px;
+  --border-color: #e2e8f0;
+  --box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+
+  --blue-color: #3b82f6;
+  --green-color: #10b981;
+  --orange-color: #f97316;
+  --purple-color: #a855f7;
+}
+
+
+
+
+/*Container style*/
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* الشاشات المتوسطة (Tablets) */
+@media (min-width: 768px) {
+  .container { width: 750px; }
+}
+
+/* الشاشات الكبيرة (Desktops) */
+@media (min-width: 992px) {
+  .container { width: 970px; }
+}
+
+/* الشاشات الضخمة (Large Desktops) */
+@media (min-width: 1200px) {
+  .container { width: 1170px; }
+}
+
+.section-padding {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+}
